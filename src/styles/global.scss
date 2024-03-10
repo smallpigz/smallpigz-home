@@ -1,0 +1,27 @@
+@import './reset.scss';
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #a3b5c1;
+}
+
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 14px;
+  font-family:
+    PingFang SC,
+    Helvetica Neue,
+    Helvetica,
+    Hiragino Sans GB,
+    Microsoft YaHei,
+    Arial,
+    sans-serif;
+}
+
+#app {
+  height: 100%;
+}
